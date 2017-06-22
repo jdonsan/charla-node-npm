@@ -1,6 +1,6 @@
 # Charla sobre NodeJS y NPM
 
-Slides sobre la charla "Bienvenid@s al mundo de nOOOde.
+Slides sobre la charla "Bienvenid@s al mundo de nOOOde".
 
 ## WebSlides
 
