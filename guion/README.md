@@ -122,21 +122,22 @@ EN este segundo bloque vamos a ver como usar esta herramienta para trabajar con 
 
 Explico cómo lanzar npm init y la estructura de package.json.
 
-## Slide: Instalando dependencias 
+## Slide: package.json
 
-Explico npm install -g
+Explico package.json
 
 ## Slide: Instalando dependencias locales
 
-Explico npm install sin -g
+Explico npm install sin -g 
+
+## Slide: Instalando dependencias global
+
+Explico npm install -g
 
 ## Slide: Diferencia entre dependencias de desarrollo y de producción: explico el uso de:
 npm install --save
 npm install --save-dev
 
-## Slide: Actualizando dependencias
-
-Explico npm update
 
 ## Slide: Eliminando dependencias 
 
