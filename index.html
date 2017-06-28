@@ -70,6 +70,22 @@
 
 <body>
 	<main role="main">
+		<header>
+			<div class="wrap">
+				<p>
+					<span class="alignleft">Bienvenid@s al mundo de nOOOde</span>
+					<span class="alignright">
+						<a href="#" title="github">
+							<svg class="fa-github">
+								<use xlink:href="#fa-github"></use>
+							</svg>
+							slides
+						</a>
+					</span>
+				</p>
+			</div>
+		</header>
+
 		<article id="webslides">
 			<!-- Slide: Bienvenid@s al mundo de nOOOde -->
 			<section class="bg-black-blue">
@@ -153,7 +169,7 @@
 				<span class="background-right" style="background-image:url('static/images/v8.png'); background-size: 600px;"></span>
 				<div class="wrap">
 					<div class="content-left">
-						<h3>El motor V8</h3>
+						<h3>El motor <span class="bg-blue">V8</span></h3>
 						<p><code>> Intérpretando tú JavaScript</code></p>
 						<ul class="flexblock specs">
 							<li>
@@ -226,7 +242,7 @@
 			<!-- Slide: NPM -->
 			<section>
 				<div class="wrap">
-					<h3>NPM</h3>
+					<h3><span class="bg-red">NPM</span></h3>
 					<p><code>> Node Package Manager</code></p>
 					<ul class="flexblock gallery">
 						<li>
@@ -276,6 +292,15 @@
 				</div>
 			</section>
 
+			<!-- Slide: Contextos -->
+			<section class="bg-white slide-top">
+				<span class="background-center-bottom" style="background-image:url('static/images/npm/npm-folders.png'); padding-right: 7rem;"></span>
+				<div class="wrap">
+					<div class=" content-left">
+					</div>
+				</div>
+			</section>
+
 			<!-- Slide: Creando un nuevo módulo -->
 			<section class="aligncenter">
 				<div class="wrap">
@@ -283,6 +308,7 @@
 					<pre class="aligncenter">
 						<h3>$ npm init</h3>
 					</pre>
+				</div>
 			</section>
 
 			<!-- Slide: Package.json -->
@@ -308,41 +334,53 @@
 					  "license": "MIT"
 					}
 					</pre>
+				</div>
 			</section>
 
-			<!-- Slide: Instalando dependencia local -->
-			<section class="aligncenter">
-				<div class="wrap">
-					<h1 class="text-landing">Instalar dependencia local</h1>
-					<pre class="aligncenter">
-						<h3>$ npm install [nombre-del-modulo]</h3>
-					</pre>
-			</section>
-
-			<!-- Slide: Instalando dependencias global -->
+			<!-- Slide: Instalando dependencia global -->
 			<section class="aligncenter">
 				<div class="wrap">
 					<h1 class="text-landing">Instalar dependencia global</h1>
 					<pre class="aligncenter">
-						<h3>$ npm install <b>-g</b> [nombre-del-modulo]</h3>
+						<h3>$ npm install <b>-g</b> gulp</h3>
 					</pre>
+				</div>
+			</section>
+
+			<section class="bg-white">
+				<span class="background-center-bottom" style="background-image:url('static/images/npm/npm-global.png');"></span>
+				<div class="wrap">
+				</div>
 			</section>
 
 			<!-- Slide: Diferencia entre dependencias de desarrollo y de producción -->
 			<section class="aligncenter">
 				<div class="wrap">
-					<h1 class="text-landing">Instalar dependencia de desarrollo</h1>
+					<h1 class="text-landing">Instalar dependencia de producción</h1>
 					<pre class="aligncenter">
-						<h3>$ npm install [nombre-del-modulo] --save-dev</h3>
+						<h3>$ npm install express --save</h3>
 					</pre>
+			</section>
+
+			<section class="bg-white">
+				<span class="background-center-bottom" style="background-image:url('static/images/npm/npm-save.png');"></span>
+				<div class="wrap">
+				</div>
 			</section>
 
 			<section class="aligncenter">
 				<div class="wrap">
-					<h1 class="text-landing">Instalar dependencia de producción</h1>
+					<h1 class="text-landing">Instalar dependencia de desarrollo</h1>
 					<pre class="aligncenter">
-						<h3>$ npm install [nombre-del-modulo] --save</h3>
+						<h3>$ npm install node-sass --save-dev</h3>
 					</pre>
+				</div>
+			</section>
+
+			<section class="bg-white">
+				<span class="background-center-bottom" style="background-image:url('static/images/npm/npm-save-dev.png');"></span>
+				<div class="wrap">
+				</div>
 			</section>
 
 			<!-- Slide: Eliminando dependencias -->
@@ -350,8 +388,15 @@
 				<div class="wrap">
 					<h1 class="text-landing">Desinstalar dependencia</h1>
 					<pre class="aligncenter">
-						<h3>$ npm uninstall [nombre-del-modulo]</h3>
+						<h3>$ npm uninstall node-sass --save-dev</h3>
 					</pre>
+				</div>
+			</section>
+
+			<section class="bg-white">
+				<span class="background-center-bottom" style="background-image:url('static/images/npm/npm-save.png');"></span>
+				<div class="wrap">
+				</div>
 			</section>
 
 			<!-- Slide: Ejemplo -->
@@ -359,6 +404,12 @@
 				<span class="background dark" style="background-image:url('static/images/juguemos.jpg')"></span>
 				<div class="wrap">
 					<h1 class="text-landing text-shadow"><strong>Ejemplo</strong></h1>
+				</div>
+			</section>
+
+			<section class="bg-white">
+				<span class="background-center-bottom" style="background-image:url('static/images/npm/npm-2-proyectos.png');"></span>
+				<div class="wrap">
 				</div>
 			</section>
 
